@@ -141,5 +141,7 @@ dmypy.json
 static/
 media/
 
-*.png
-*.pdf
+backend/images/recipes/*.png
+backend/images/avatars/*.png
+backend/users/avatars/*.png
+backend/*.pdf
