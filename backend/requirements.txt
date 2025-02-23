@@ -1,0 +1,11 @@
+Django==3.2.16
+djangorestframework==3.12.4
+Pillow==9.3.0
+drf-extra-fields==3.7.0
+django-filter==23.1
+drf_pdf==0.2.0
+reportlab==4.2.5
+python-dotenv==0.20.0
+psycopg2-binary==2.9.3
+pytest==6.2.4
+pytest-django==4.4.0
