@@ -21,7 +21,7 @@ To deploy **Foodgram** project on your local computer or server, make sure you h
 
 ### 2. Programs and packages
 
-- **Python 3.8 или выше**: to work with the project, you need to have Python version 3.8 or later installed. Download Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- **Python 3.8 or later**: to work with the project, you need to have Python version 3.8 or later installed. Download Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 - **pip**: Python package manager. Download pip: [https://pip.pypa.io/en/stable/installation/](https://pip.pypa.io/en/stable/installation/)
 
