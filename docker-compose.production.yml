@@ -12,7 +12,7 @@ services:
     volumes:
       - pg_data:/var/lib/pg/data
   backend:
-    image: 8681463/foodgram_backend
+    image: 8681463/foodgram_backend_arm64
     env_file: .env
     depends_on:
       - db
@@ -20,12 +20,12 @@ services:
       - static:/backend_static
       - media:/media
   frontend:
-    image: 8681463/foodgram_frontend
+    image: 8681463/foodgram_frontend_arm64
     command: cp -r /app/build/. /static/
     volumes:
       - static:/static
   gateway:
-    image: 8681463/foodgram_gateway
+    image: 8681463/foodgram_gateway_arm64
     depends_on:
       - backend
       - frontend
